@@ -1,0 +1,39 @@
+body {
+  font-family: Times New Roman;
+  background-color: orange;
+}
+article{
+  width: 800px;
+}
+article header h1 {
+  font-size: 55px;
+  color: blue;
+  font-family: Arial;
+  padding: 10px;
+  text-align: center;
+}
+article header p {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+article figure{
+  width: 600px;
+  border: 10px solid blue;
+  padding: 5px;
+  float: right;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+article figure img {
+    width: 100%;
+}
+article q {
+  background-color: yellow;
+  color: red;
+  font-family: Arial;
+}
+article p {
+  background-color: turquoise;
+  width: 80px;
+}
