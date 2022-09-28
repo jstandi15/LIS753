@@ -3,7 +3,7 @@ body {
   background-color: #9BEDEA;
 }
 
-article{
+article {
 }
 
 article header p {
@@ -28,13 +28,21 @@ article figure.cat-image {
   width: 400px;
   border: 2px solid blue;
   padding: 5px;
-  float: none;
-  margin-left: 10px;
   margin-bottom: 10px;
 }
 
 article figure.cat-image img {
     width: 100%;
+}
+
+article figure.cat-image.odd {
+  float: right;
+  margin-left: 20px;
+}
+
+article figure.cat-image.even {
+  float: left;
+  margin-right: 20px;
 }
 
 article q {
@@ -60,16 +68,20 @@ h1#site-title {
   text-align: center;
 }
 
-h1#cat-section{
+h1#cat-section {
   font-size: 40px;
   color: black;
   font-family: Arial;
 }
 
-p#squid-section-comment{
+p#squid-section-comment {
   background-color: black;
   color: white;
   font-family: sans-serif;
+}
+
+h2#squid-section {
+  padding-top: 500px;
 }
 
 header ul.site-nav {
