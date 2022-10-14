@@ -1,0 +1,95 @@
+body {
+  font-family: Times New Roman;
+}
+article header {
+  width: 100%;
+  text-align: center;
+  background-color: #e3f7c3;
+}
+article figure.book-image {
+  width: 600px;
+  padding: 5px;
+  text-align: center;
+  margin-left: 300px;
+  margin-bottom: 25px;
+}
+article figure.book-image img {
+    width: 250px;
+}
+article#Part2 {
+  background-color: #90f5d3;
+  border: 2px solid green;
+  padding-left: 10px;
+}
+h1{
+  color: #044a1e;
+}
+p#message {
+}
+p#message2 {
+  font-weight: bold;
+}
+h1#site-title {
+  font-size: 55px;
+  color: #05785d;
+  font-family: Helvetica;
+  text-align: center;
+  font-weight: bold;
+}
+h1#site-title2{
+  font-size: 50px;
+  text-align: center;
+}
+h1.come-section {
+  font-size:35px;
+}
+h1.rooms-section {
+  font-size: 35px;
+  margin-top: 30px;
+}
+h1.additional-section {
+  margin-top: 30px;
+}
+footer#page-footer {
+  background-color: black;
+  color: white;
+}
+header ul.site-nav {
+  background-color: #a6eda8;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+  border-bottom: 1px solid Green;
+}
+header ul.site-nav li.site-nav-item {
+  padding: 5px;
+}
+header ul.site-nav li.site-nav-item:last-child {
+  border-bottom: none;
+}
+header ul.site-nav li.site-nav-item a {
+  color: #044a1e;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+header ul.site-nav li.site-nav-item a:hover {
+  background-color: Green;
+  color: white;
+}
+.container {
+  width: 96%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+footer#page-footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
