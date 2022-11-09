@@ -1,0 +1,207 @@
+body {
+  font-family: Times New Roman;
+  background-color: #9BEDEA;
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+@-ms-viewport{
+  width: device-width;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+article {
+}
+
+article header p {
+  width: 100%;
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  article figure.dog-image {
+    width: 600px;
+    border: 2px solid black;
+    padding: 5px;
+    float: none;
+    margin-left: 300px;
+    margin-bottom: 10px;
+  }
+  article figure.cat-image {
+    width: 400px;
+    border: 2px solid blue;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  article figure.cat-image.odd {
+    float: right;
+    margin-left: 20px;
+  }
+
+  article figure.cat-image.even {
+    float: left;
+    margin-right: 20px;
+  }
+  h2#squid-section {
+    padding-top: 500px;
+  }
+}
+
+article figure.dog-image img {
+  width: 100%;
+}
+
+article figure.cat-image img {
+  width: 100%;
+}
+
+article q {
+  font-family: Arial;
+  font-size: 30px;
+  color: Blue;
+}
+
+p#message {
+  text-align: center;
+}
+
+p#message2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h1#site-title {
+  font-size: 55px;
+  font-family: Arial;
+  padding: 10px;
+  text-align: center;
+}
+
+h1#cat-section {
+  font-size: 40px;
+  font-family: Arial;
+}
+
+p#squid-section-comment {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+header ul.site-nav {
+  padding-left: 0;
+  border-top: 1px solid Red;
+  border-bottom: 1px solid Red;
+  list-style: none;
+}
+
+header ul.site-nav li.site-nav-item {
+  padding: 5px;
+}
+
+header ul.site-nav li.site-nav-item:last-child {
+  border-bottom: none;
+}
+
+header ul.site-nav li.site-nav-item a {
+  color: blue;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+header ul.site-nav li.site-nav-item a:hover {
+  background-color: White;
+}
+
+@media all and (min-width: 376px) {
+  header ul {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+  }
+}
+
+.container {
+  width: 96%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+footer#page-footer {
+  background-color: black;
+  color: white;
+}
+
+footer#page-footer ul.site-nav {
+  list-style: none;
+  padding-left: 0;
+}
+
+@media all and (min-width: 376px) {
+  footer#page-footer ul.site-nav{
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+  }
+}
+
+footer#page-footer ul.site-nav li.site-nav-item {
+  padding: 5px;
+}
+
+footer ul.site-nav li.site-nav-item:last-child {
+  border-bottom: none;
+}
+
+footer ul.site-nav li.site-nav-item a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+footer ul.site-nav li.site-nav-item a:hover {
+  text-decoration: underline;
+}
+
+#message {
+  background: #E9FFE4;
+  border: 1px solid;
+  padding: 20px 40px;
+  margin: 12px 0;
+  border-radius= 4px;
+  opacity: 1;
+  transition: opacity .2s ease;
+}
+
+#message.dismissed {
+  opacity: 0;
+  height: 0;
+}
+
+#message button {
+  float: right;
+}
+
+body.dark-mode {
+  background: #010101;
+  color: #ffffff
+}
+
+body.dark-mode button {
+  background: #ffffff;
+  color: #010101
+}
